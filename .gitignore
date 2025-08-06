@@ -1,0 +1,55 @@
+############################
+# Angular / Node
+############################
+node_modules/
+dist/
+tmp/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.pnpm-debug.log
+
+# Angular build cache
+.angular/cache/
+.angular/
+
+############################
+# .NET build
+############################
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Rider / VS / VSCode project files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+############################
+# Logs & temp files
+############################
+*.log
+*.tmp
+*.temp
+~$*
+*.swp
+*.swo
+
+############################
+# OS generated files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
