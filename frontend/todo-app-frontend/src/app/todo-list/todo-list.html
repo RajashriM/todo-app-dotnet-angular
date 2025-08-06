@@ -1,0 +1,21 @@
+<div class="todo-app">
+  <h2>TODO List</h2>
+
+  <form (submit)="$event.preventDefault(); addTodo();">
+    <input
+      type="text"
+      [(ngModel)]="newTask"
+      name="task"
+      placeholder="New task"
+      required
+    />
+    <button type="submit" [disabled]="!newTask.trim()">Add</button>
+  </form>
+
+  <ul>
+    <li *ngFor="let item of todos$ | async; trackBy: trackById">
+      <span>{{ item.task }}</span>
+      <button (click)="deleteTodo(item.id)">Delete</button>
+    </li>
+  </ul>
+</div>
