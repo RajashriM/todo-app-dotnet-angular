@@ -487,11 +487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\RajProjects\\todo-app_ASP.NET_WebAPI_Angular\\backend\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "F:\\RajProjects\\todo-app-dotnet-angular\\backend\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "F:\\RajProjects\\todo-app_ASP.NET_WebAPI_Angular\\backend\\TodoApi\\TodoApi.csproj",
+      "projectPath": "F:\\RajProjects\\todo-app-dotnet-angular\\backend\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\Rajashri\\.nuget\\packages\\",
-      "outputPath": "F:\\RajProjects\\todo-app_ASP.NET_WebAPI_Angular\\backend\\TodoApi\\obj\\",
+      "outputPath": "F:\\RajProjects\\todo-app-dotnet-angular\\backend\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rajashri\\AppData\\Roaming\\NuGet\\NuGet.Config"
