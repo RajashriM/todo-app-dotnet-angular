@@ -52,10 +52,16 @@ todo-app/
 ```bash
 cd backend/TodoApi
 dotnet restore
+set DOTNET_ENVIRONMENT=Development
 dotnet run
 
 By default, the API will run at:
-https://localhost:5184
+http://localhost:5184
+
+Swagger :
+http://localhost:5184/swagger/index.html
+
+API To call from Angular: http://localhost:5184/api/todo
 
 ### 2. Running the Frontend (Angular)
 ```bash
